@@ -7,12 +7,12 @@ body {
 }
 
 .header {
-    background-color: #30261B;
+    background-color: #100904;
     color: white;
     display: flex;
     justify-content: space-between;
     align-self: stretch;
-    padding: 16px;
+    padding: 24px 17%;
 }
 
 .nav {
@@ -23,10 +23,78 @@ body {
 }
 
 .welcome {
-    background-color: #30261B;
+    background-color: #100904;
     color: white;
+    display: flex;
+    align-self: stretch;
+    padding: 100px 17% 150px 17%;
+    justify-content: space-between;
 }
 
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 24px;
+    padding-right: 25%;
+}
+
+.welcome-image {
+    max-width: 500px;
+    height: auto;
+    margin-top: 18px;
+}
+
+.welcome button {
+    background-color: #E1DAC7;
+    border: none;
+    color: #100904;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    padding: 100px 17%;
+    text-align: center;
+    color: #100904;
+}
+
+.item-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-top: 64px;
+}
+
+.info-item img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+.quote {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    Padding: 150px 20%;
+    background-color: #F1EDE4;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.attribution {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta {
+    align-self: stretch;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -35,8 +103,28 @@ ul {
 a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 h1 {
     margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 48px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+button {
+    align-self: flex-start;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-family: inherit;
 }
