@@ -8,7 +8,7 @@ body {
 
 .header {
     background-color: #100904;
-    color: white;
+    color: #F1EDE4;
     display: flex;
     justify-content: space-between;
     align-self: stretch;
@@ -94,7 +94,34 @@ body {
 
 .cta {
     align-self: stretch;
+    background-color: #009F93;
+    margin: 100px 15%;
+    border-radius: 16px;
+    padding: 50px 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
 }
+
+.cta button {
+    align-self: center;
+    font-size: 24px;
+    background-color: #009F93;
+    border:White 2px solid;
+    padding: 12px 24px;
+    color: white;
+}
+
+.footer {
+    background-color: #100904;
+    color: white;
+    align-self: stretch;
+    padding: 24px 17%;
+    text-align: center;
+    color: #F1EDE4;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
